@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+}
+
+#datetime-picker,
+button {
+height: 30px;
+border-radius: 5px;
+font-weight: 600;
+}
+
+#datetime-picker {
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 300px;
+}
+
+button {
+    font-size: 20px;
+    width: 150px;
+    background-color: #00cc00;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    background-color: #00e100;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.value {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.label {
+    color: #cccccc;
+}
