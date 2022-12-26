@@ -20,6 +20,10 @@ btnStart.addEventListener('click', onBtnStartClick);
 
 function onBtnStartClick() {
     timerId = setInterval(updateBgColor, INTERVAL_DELAY);
+    start();
+}
+
+function start() {
     btnStart.disabled = true;
     btnStop.disabled = false;
 }
@@ -28,6 +32,10 @@ btnStop.addEventListener('click', onBtnStopClick);
 
 function onBtnStopClick() {
     clearInterval(timerId);
+    stop();
+}
+
+function stop() {
     btnStart.disabled = false;
     btnStop.disabled = true;
 }
